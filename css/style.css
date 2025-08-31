@@ -43,12 +43,17 @@ header {
 }
 
 .logo {
-    width: 64px;
-    height: 64px;
-    border-radius: 13px;
-    background-image: url(../img/logo-boa.jpg);
-    background-size: 100%;
+  width: 12vw;             /* largura proporcional à tela */
+  max-width: 80px;         /* não passa de 80px */
+  min-width: 40px;         /* não fica muito pequena */
+  aspect-ratio: 1 / 1;     /* mantém sempre quadrada */
+  border-radius: 13px;
+  background-image: url(../img/logo-boa.jpg);
+  background-size: cover;  /* preenche sem distorcer */
+  background-position: center;
+  background-repeat: no-repeat;
 }
+
 
 
 h1 {
