@@ -45,15 +45,11 @@ header {
 .logo {
     width: 64px;
     height: 64px;
-    border-radius: 12px;
-    background: linear-gradient(135deg, var(--accent), var(--highlight));
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: white;
-    font-weight: 700;
-    font-size: 20px
+    border-radius: 13px;
+    background-image: url(../img/logo-boa.jpg);
+    background-size: 100%;
 }
+
 
 h1 {
     margin: 0;
@@ -190,6 +186,61 @@ section.category h2 {
     margin-top: 4px;
     display: block;
 }
+
+
+.pousada-info {
+  text-align: center;
+  padding: 60px 20px;
+  background: #fdfdfb;
+  border-radius: 12px;
+}
+
+.pousada-info h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #3e3e3e;
+}
+
+.pousada-info img {
+  max-width: 500px;
+  width: 100%;
+  border-radius: 20px;
+  margin-bottom: 30px;
+  box-shadow: 0px 4px 20px rgba(0,0,0,0.15);
+  transition: 0.5s;
+}
+
+.pousada-info img:hover{
+    max-width: 600px;
+    width: 100%;
+}
+
+.pousada-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.btn-social {
+  display: inline-block;
+  padding: 15px 30px;
+  background: #2d6a4f;
+  color: #fff;
+  font-weight: bold;
+  font-size: 1.1rem;
+  border-radius: 50px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  box-shadow: 0px 4px 15px rgba(0,0,0,0.15);
+}
+
+.btn-social:hover {
+  background: #1b4332;
+  transform: translateY(-5px) scale(1.05);
+  box-shadow: 0px 8px 20px rgba(0,0,0,0.3);
+}
+
+
 
 footer {
     padding: 28px 20px;
