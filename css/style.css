@@ -199,6 +199,15 @@ section.category h2 {
     display: block;
 }
 
+.vinhos{
+    padding: 10px;
+    background-color:#C9B79A;
+    border-radius: 14px;
+}
+.vinhos section{
+    margin-top: 0px;
+}
+
 
 .pousada-info {
   text-align: center;
